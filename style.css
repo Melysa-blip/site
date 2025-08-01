@@ -1450,6 +1450,38 @@ html {
     .services-1 {
         margin-bottom: 25px;
     }
+    .servicios-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+  }
+
+  .servicio {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .servicio h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .servicio p {
+    font-size: 14px;
+  }
+
+  .btn-contacto {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto 0;
+  }
+
+   .footer-S {
+    padding: 50px;
+    text-align: center;
+    margin-top: 1990px;
+  }
 
     .general {
         flex-direction: column;
