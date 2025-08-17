@@ -1412,6 +1412,9 @@ html {
     .header-content p{
         padding: 0;
     }
+    .header-content h1{
+        font-size: 36px;
+    }
 
     .constructora {
         padding: 30px;
@@ -1523,6 +1526,7 @@ html {
     }
    
 }
+
 
 
 
