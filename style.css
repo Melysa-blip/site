@@ -1322,10 +1322,15 @@ html {
   scroll-behavior: smooth;
 }
 
-@media(max-width:991px) {
+@media(max-width:768px) {
 
     .menu {
         padding: 30px;
+    }
+
+    .logo img {
+        margin-top: -40px;
+        width: 80px;
     }
 
     .menu-icono {
@@ -1334,6 +1339,13 @@ html {
         top: 100px;
         right: 20px;
         z-index: 1000;
+        cursor: pointer;
+        background-color: rgb(212, 50, 50);
+    }
+    .menu-icono img {
+        width: 35px;
+        height: auto;
+        filter: invert(0);
     }
 
     .menu label {
@@ -1406,14 +1418,15 @@ html {
 
 
     .header-content {
-        padding: px 30px;
+        padding: 50px 30px;
+        position: relative;
     }
 
     .header-content p{
         padding: 0;
     }
     .header-content h1{
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .constructora {
@@ -1437,13 +1450,32 @@ html {
         display: none;
     }
 
+    .blog h2 {
+        font-size: 30px;
+    }
+
     .services {
         padding: 30px;
     }
 
-    .services-content p {
-        padding: 0;
+    .services-content h2 {
+        padding: 10px;
+        font-size: 15px;
     }
+
+    .services-content p {
+        font-size: 15px;
+    }
+
+    .nosotros {
+        padding: 10px;
+    }
+
+    .nosotros-contenido p {
+        width: 150px;
+        font-size: 8px;
+    }
+
 
     .services-group {
         flex-direction: column;
@@ -1526,6 +1558,7 @@ html {
     }
    
 }
+
 
 
 
