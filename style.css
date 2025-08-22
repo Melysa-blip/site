@@ -1570,8 +1570,25 @@ html {
     .columna-texto h1 {
         font-size: 30px;
     }
+
+    .separador {
+        margin-top: 50px;
+    }
+
+    .separador-rojo {
+        margin-right:  13%;
+    }
+
+    .footer-content {
+        margin-top: 100px;
+    }
+
+    .footer-content .link.redes {
+        margin-top: -50px;
+            
    
 }
+
 
 
 
