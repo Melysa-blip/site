@@ -1571,6 +1571,10 @@ html {
         font-size: 30px;
     }
 
+    .columna-textoR h1 {
+        font-size: 35px;
+    }
+
     .separador {
         margin-top: 50px;
     }
@@ -1588,6 +1592,7 @@ html {
             
    
 }
+
 
 
 
