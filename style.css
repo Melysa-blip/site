@@ -1076,7 +1076,7 @@ body.services {
     color: #222;
     text-align: justif;
     position: absolute;
-    top: 1400px;
+    top: 1300px;
 
 }
 
@@ -1161,11 +1161,9 @@ body.services {
 
 .footer-content-S {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     max-width: 1200px;
-    margin: 0 auto 40px;
     gap: 40px;
+    margin-right: -80px;
 }
 
 .footer-S .link2 {
@@ -1592,6 +1590,7 @@ html {
             
    
 }
+
 
 
 
